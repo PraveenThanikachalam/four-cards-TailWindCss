@@ -7,7 +7,7 @@ import Calculator from "../public/icon-calculator.svg"
 function App() {
   return (
     <div className="w-screen h-screen flex flex-col gap-y-16">
-      <div className="heading w-full flex flex-col items-center pt-[80px]">
+      <div className=" w-full flex flex-col  items-center justify-center pt-[80px]">
         <h1 className="text-4xl font-light font-sans tracking-wide text-gray-600">
           Reliable, efficient delivery
         </h1>
@@ -19,7 +19,7 @@ function App() {
           aliquip ex ea commodo consequat.
         </p>
       </div>
-      <div className="w-full flex flex-row h-[500px] mt-8  justify-center gap-10 items-center  ">
+      <div className="w-full flex md:flex-row gap-10 flex-col h-[500px] md:mt-8  mt-72   justify-center  items-center    ">
         <div>
           <Cards
             color="#5df597"
